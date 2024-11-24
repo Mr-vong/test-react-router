@@ -8,7 +8,7 @@ export default function Index(){
   return(
     <>
       <section className='section'>
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 gap-x-20'>
           <div className='flex flex-col gap-y-8'>
             <h1 className='text-7xl text-100 pb-2'>Powerful data insights for all</h1>
             <p className='text-xl text-100 font-300 opacity-75'>Torch makes data analysis easy for everyone. Visualise key metrics, track performance, and discover trends without needing a data science background.</p>
