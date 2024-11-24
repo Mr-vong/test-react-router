@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { scrollToTop } from "../utils/scrollToTop"
+// import { scrollToTop } from "../utils/scrollToTop"
 
 export default function Page404(){
   return(
@@ -11,7 +11,7 @@ export default function Page404(){
         <Link
           to="/"
           className="button font-400 hover"
-          onClick={scrollToTop}
+          // onClick={scrollToTop}
         >
           Go home
         </Link>

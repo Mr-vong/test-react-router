@@ -6,7 +6,8 @@ import {
 } from 'react-router-dom';
 
 // Pages
-import Root from './pages/root';
+import Root from './pages/Root';
+import SignIn from './pages/Sign-in';
 import { default as Home } from './pages/Index';
 import Features from './pages/Features';
 import Pricing from './pages/Pricing';
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
         element: <Page404 />
       },
     ]
+  },
+  {
+    path: "sign-in",
+    element: <SignIn />
   }
 ]);
 

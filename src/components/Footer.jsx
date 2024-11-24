@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { scrollToTop } from "../utils/scrollToTop";
 
 export default function Footer(){
   return(

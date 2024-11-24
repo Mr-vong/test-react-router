@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { scrollToTop } from "../utils/scrollToTop";
 
 function Navbar(){
   return(
@@ -10,15 +9,15 @@ function Navbar(){
             <img src="https://cdn.prod.website-files.com/67066dfc1c57408478acabb1/67066dfc1c57408478acac6c_torch-logo.svg" alt="Touch logo" />
           </Link>
           <nav className="flex justify-center items-center text-[0.96rem] text-400 capitalize">
-            <Link to="/features" className="nav-link" onClick={scrollToTop}>features</Link>
-            <Link to="/pricing" className="nav-link" onClick={scrollToTop}>pricing</Link>
-            <Link to="/about" className="nav-link" onClick={scrollToTop}>about</Link>
-            <Link to="/contact" className="nav-link" onClick={scrollToTop}>contact</Link>
+            <Link to="/features" className="nav-link">features</Link>
+            <Link to="/pricing" className="nav-link">pricing</Link>
+            <Link to="/about" className="nav-link">about</Link>
+            <Link to="/contact" className="nav-link">contact</Link>
           </nav>
         </div>
         <div className="flex gap-x-3 text-white text-[0.96rem]">
-          <a href="#" className="button-secondary small hover" onClick={scrollToTop}>sign in</a>
-          <a href="#" className="button small hover" onClick={scrollToTop}>get started</a>
+          <Link to="/sign-in" className="button-secondary small hover">sign in</Link>
+          <a href="#" className="button small hover">get started</a>
         </div>
       </div>
     </div>
